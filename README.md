@@ -40,9 +40,11 @@ Para rodar o projeto, você precisará ter os seguintes softwares instalados:
 
 🔧 Instalação
 - Clone este repositório:
-    git clone https://github.com/breno-almeida-dev/ABSTRATA_PRODUTO.git
+    git clone https://github.com/breno-almeida-dev/CONTROLE_PRODUTOS.git
   
 - Abra o projeto em sua IDE (recomendado o Eclipse).
+- Configure as dependências necessárias para o JPA e o driver JDBC.
+- Configure as propriedades do banco de dados no arquivo de configuração do JPA. 
 - Compile e execute o código diretamente na IDE
   
   
