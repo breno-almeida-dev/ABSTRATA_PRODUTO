@@ -17,9 +17,16 @@ A implementação inclui um terminal CLI para navegação entre os métodos CRUD
 
 ## Funcionamento do programa:
 
-![Imagem do terminal CLI]()
+## INSERT:
+![Imagem do terminal CLI](https://github.com/breno-almeida-dev/ABSTRATA_PRODUTO/blob/master/CLI-Produtos-1.png)
+![Imagem do banco de dados](https://github.com/breno-almeida-dev/ABSTRATA_PRODUTO/blob/master/BD-Produtos-1.png)
 
-![Imagem do banco de dados]()
+## UPDATE e SELECT:
+![Imagem do terminal CLI](https://github.com/breno-almeida-dev/ABSTRATA_PRODUTO/blob/master/CLI-Produtos-2.png)
+![Imagem do banco de dados](https://github.com/breno-almeida-dev/ABSTRATA_PRODUTO/blob/master/BD-Produtos-2.png)
+
+## DELETE:
+![Imagem do terminal CLI](https://github.com/breno-almeida-dev/ABSTRATA_PRODUTO/blob/master/CLI-Produtos-3.png)
 
 
 ## 📋 Pré-requisitos
