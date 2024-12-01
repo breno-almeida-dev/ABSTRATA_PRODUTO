@@ -177,7 +177,7 @@ public class ProdutoVestuario extends Produto {
             if (rowsAffected > 0) {
                 System.out.println("Produto Vestuário atualizado com sucesso.");
             } else {
-                System.out.println("Nenhum produto encontrado com o ID fornecido.");
+                System.out.println("Nenhum Produto Vestuário encontrado com o ID fornecido.");
             }
         } catch (SQLException e) {
             System.out.println("Erro ao atualizar Produto Vestuário: " + e.getMessage());
@@ -241,7 +241,7 @@ public class ProdutoVestuario extends Produto {
                 System.out.println("-----------------------------------");
             }
         } catch (SQLException e) {
-            System.out.println("Erro ao ler produtos: " + e.getMessage());
+            System.out.println("Erro ao ler os Produtos Vestuários: " + e.getMessage());
         }
     }
 }

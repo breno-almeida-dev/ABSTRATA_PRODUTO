@@ -156,12 +156,12 @@ public class ProdutoAlimenticio extends Produto {
 
             int rowsAffected = stmt.executeUpdate();
             if (rowsAffected > 0) {
-                System.out.println("Bicicleta atualizada com sucesso.");
+                System.out.println("Produto Alimentício atualizado com sucesso.");
             } else {
-                System.out.println("Nenhuma bicicleta encontrada com o ID fornecido.");
+                System.out.println("Nenhuma Produto Alimentício encontrado com o ID fornecido.");
             }
         } catch (SQLException e) {
-            System.out.println("Erro ao atualizar bicicleta: " + e.getMessage());
+            System.out.println("Erro ao atualizar Produto Alimentício: " + e.getMessage());
         }
     }
 
@@ -222,7 +222,7 @@ public class ProdutoAlimenticio extends Produto {
                 System.out.println("-----------------------------------");
             }
         } catch (SQLException e) {
-            System.out.println("Erro ao ler os produtos alimentícios: " + e.getMessage());
+            System.out.println("Erro ao ler os Produtos Alimentícios: " + e.getMessage());
         }
     }
 }
